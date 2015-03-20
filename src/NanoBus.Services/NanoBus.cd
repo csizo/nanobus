@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NanoBus.Services.NanoBusServer" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="2.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAQCAiAEAAACAAAAAACIAAABAgIAAEAAAAAAA=</HashCode>
+      <FileName>NanoBusServer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NanoServiceBus" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Sessions" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NanoBus.Services.NanoSession" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CJQBAIAgACAAIAAAAAECAABoAECCABAAAAAAAAIAAAA=</HashCode>
+      <FileName>NanoSession.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Handlers" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NanoBus.Services.ServiceBus.NanoHandler">
+    <Position X="17.5" Y="7" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACABAAAEAAgAAAAAAAAAABAAAAAAAIAAAAA=</HashCode>
+      <FileName>ServiceBus\NanoHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NanoBus.Services.ServiceBus.NanoServiceBus">
+    <Position X="19.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAAAAAAAAAAAAAAAgAAABAQAAAAAAAAAAA=</HashCode>
+      <FileName>ServiceBus\NanoServiceBus.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="EventBusses" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NanoBus.Services.ServiceBus.NanoEventBus">
+    <Position X="22.75" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACBAEQAAAAAAAAAAAAEAAAAAAAAAAQAABAA=</HashCode>
+      <FileName>ServiceBus\NanoEventBus.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="NanoEventHandlers" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NanoBus.Services.ServiceBus.NanoMessageBus">
+    <Position X="28" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAACgAAAAAAAAAAACAAAAAAACESAAAAA=</HashCode>
+      <FileName>ServiceBus\NanoMessageBus.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NanoBus.Services.NanoServiceBus.NanoEventBus" BaseTypeListCollapsed="true">
+    <Position X="5" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACBAAQAAAAAAgAAAAAgAAAAAAAAAAQAABAA=</HashCode>
+      <FileName>NanoServiceBus\NanoEventBus.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="NanoMessageBusses" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NanoBus.Services.NanoServiceBus.NanoHandler" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACABAAAEgAgAAAAAAAAAABAAAAAAAIAAAAA=</HashCode>
+      <FileName>NanoServiceBus\NanoHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NanoBus.Services.NanoServiceBus.NanoMessageBus" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQIAABAACAAAACAAAEAAAAAAEBAAAAAAABCEAAAAAA=</HashCode>
+      <FileName>NanoServiceBus\NanoMessageBus.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Handlers" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NanoBus.Services.NanoServiceBus.NanoServiceBus" BaseTypeListCollapsed="true">
+    <Position X="1.5" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAAAAAAAAAAAAAAAgAAABAQAAAAAAAAAAA=</HashCode>
+      <FileName>NanoServiceBus\NanoServiceBus.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="EventBusses" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

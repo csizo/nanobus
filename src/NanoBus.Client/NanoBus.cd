@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Framework.Runtime.Azure.Messaging.NanoBus.NanoBusFactory">
+    <Position X="1" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAI=</HashCode>
+      <FileName>NanoBusFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Framework.Runtime.Azure.Messaging.NanoBus.NanoClientConnection">
+    <Position X="8.5" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CJAAAIAwACAAIAAAAAAAAABiACgAABBAABgAAAIABAA=</HashCode>
+      <FileName>NanoClientConnection.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NanoBus" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Framework.Runtime.Azure.Messaging.NanoBus.NanoBus">
+    <Position X="4.25" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACAQAQAAAAAABAAACAgIABAAAAAAAAIAIAA=</HashCode>
+      <FileName>NanoBus.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="NanoClientConnections" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
